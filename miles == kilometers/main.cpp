@@ -7,9 +7,40 @@
 //
 
 #include <iostream>
+#include <cstdlib>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    
+    float k = 0;
+    
+   
+    cout << "Please input the number of kilometers you wish to be converted into miles:";
+    
+   
+    
+    cin >> k;
+    cout <<endl<<endl;
+
+    
+   
+    cout << endl
+    << k << " kilometers = " << (k * 0.621371192) << " miles."
+    << endl << endl;
+    
+    
+    
+    
+    
+    
+    return EXIT_SUCCESS;
 }
+
+
+
+
+
+
+
+
