@@ -13,20 +13,27 @@ using namespace std;
 int main()
 {
     
-    float k = 0;
+    double
+    m = 0;
     
    
-    cout << "Please input the number of kilometers you wish to be converted into miles:";
+    cout
+    << "Please input the number of kilometers you wish to be converted into miles:";
     
-   
     
-    cin >> k;
-    cout <<endl<<endl;
+    cin
+    >> m;
+    
+    
+    cout
+    <<endl
+    <<endl;
 
     
-   
-    cout << endl
-    << k << " kilometers = " << (k * 0.621371192) << " miles."
+    cout
+    << endl<< m
+    << " miles = "
+    << (m * 1.609) << " kilometers."
     << endl << endl;
     
     
